@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+#nav{
+    display: flex;
+    
+    justify-content: flex-end;
+    background: linear-gradient(to right, white 0%,#ffddc1 100%);
+
+    
+    
+}
+#nav div{
+    box-shadow: -3px -3px 7px#ffddc1, 3px 3px 5px rgba(94, 104, 121, 0.945);
+    font-size: 2rem;
+    text-shadow: 5px 2px 2px white;
+ padding: 3px;
+    margin: 7px;
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color:black;
+}
+a:hover{
+   
+    background-color:#fffff4 ;
+   color: blue;
+}
+#hero{
+    width: 100%;
+    height: 50vh;
+    
+    
+    background-image: url("./img/hero.jpg") ;
+    background-size: cover;
+    background-position:  center;
+  opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#hero div{
+    text-shadow: 5px 2px 2px white;
+    text-align: center;
+    font-size: 2rem;
+}
+:root {
+    --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2),
+        -6px -6px 16px 0 rgba(255, 255, 255, 1);
+
+    --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2),
+        inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8);
+}
+
+button {
+
+    color:white;
+    font-size: 2rem;
+   
+    cursor: pointer;
+    margin: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color:#28a745;
+    box-shadow: var(--nm);
+    transition: box-shadow 0.3s ease-in-out;
+    text-shadow: 5px 2px 2px black;
+}
+button:hover {
+    box-shadow: var(--nm-inset);
+}
+#features{
+    display: flex;
+    flex-direction: row;
+}
+#features div{
+    
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(to left, white 0%,#ffddc1 100%);
+}
+#about{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./img/team.jpg") ;
+    background-size: cover;
+    background-position:  center;
+    display: flex;
+    flex-direction: column;
+   justify-content:first baseline;
+   
+  
+  
+   
+    
+}
+#about div{
+    align-self:center;
+    text-align: center;
+    text-shadow: 5px 2px 2px white;
+   
+    padding: 10px;
+}
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#testimonials div{
+    align-self:center;
+    text-align: center;
+    background: linear-gradient(to left, white 0%,#ffddc1 100%);
+    padding: 10px;
+}
+#contact{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, white 0%,#ffddc1 100%);
+  
+}
+#contact div{
+    align-self:center;
+    text-align: center;
+   padding: 10px;
+}
+#footer{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, white 0%,#ffddc1 100%);
+}
+#footer div{
+    align-self:flex-end;
+    text-align: center;
+}
+hr{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
